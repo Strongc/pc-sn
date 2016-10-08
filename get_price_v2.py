@@ -11,7 +11,7 @@ import pymysql
 import json
 import time
 import os
-os.chdir('f:\python\scripts\sn')
+os.chdir('C:/Users/Administrator/Documents/GitHub')
 import sku_abc
 
 app=Celery('get_price_v2',broker='redis://localhost:6379')

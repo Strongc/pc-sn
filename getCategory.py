@@ -7,7 +7,7 @@ Created on Sat May 21 12:19:06 2016
 import requests
 import json
 import os
-os.chdir('f:/python/scripts')
+os.chdir('C:/Users/Administrator/Documents/GitHub')
 
 def getCategory(url_root='http://lib.suning.com/header/menuData-threeSortShow.jsonp?callback=threeSortShow'):
     category={}

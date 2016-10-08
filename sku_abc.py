@@ -6,6 +6,8 @@ Created on Tue Jan 19 17:01:36 2016
 """
 import pymysql
 import pandas as pd
+import os
+os.chdir('C:/Users/Administrator/Documents/GitHub')
 
 def get_sku():
     conn=pymysql.connect(host='127.0.0.1',user='root',passwd='1111',db='customer',charset='gbk')
