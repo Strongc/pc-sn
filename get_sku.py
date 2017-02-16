@@ -14,9 +14,7 @@ import pymysql
 import re
 import datetime
 from celery import Celery
-import os
 from getCategory import getCategory
-os.chdir('C:/Users/Administrator/Documents/GitHub')
 
 app=Celery('get_sku',broker='redis://localhost:6379')
 
